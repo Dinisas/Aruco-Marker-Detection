@@ -83,7 +83,7 @@ if __name__ == "__main__":
     # all_image_paths.append(path)
     
     # Generate multiple markers (600px with 50px border)
-    paths = generate_multiple_markers(cv2.aruco.DICT_5X5_100, 5, 600, 1, 50, "marker_5x5_large")
+    paths = generate_multiple_markers(cv2.aruco.DICT_5X5_100, 10, 600, 1, 50, "marker_5x5_large")
     all_image_paths.extend(paths)
     
     # Open all generated images
